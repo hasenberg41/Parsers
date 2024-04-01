@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require_relative '../parser'
+require_relative '../cli'
+
+Dry::CLI.new(Parser::CLI::Commands).call

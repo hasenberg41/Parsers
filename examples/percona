@@ -1,0 +1,3 @@
+#!bin/bash
+
+./bin/parser percona yum_version_finder 0.1-
